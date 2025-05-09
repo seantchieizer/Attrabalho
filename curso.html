@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/stylecurso.css">
+    <link rel="stylesheet" href="./assets/css/stylenavbar.css">
+    <link rel="stylesheet" href="./assets/css/stylelinha.css">
+    <title>Cursos</title>
+</head>
+<body>
+    <div id="navbar-container"></div>
+        <section class="banner">
+            <h1 style="font-style:italic; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                <span style="color: rgb(90, 90, 230);">print</span><span style="color:rgb(255, 255, 255)">(</span><span  style="color:rgb(231, 233, 95)">"aprenda agora"</span><span  style="color:rgb(255, 255, 255)">)</span></h1>
+        </section>
+    <main class="container">
+        <div class="menu-horizontal">
+            <form>
+                <label><input type="radio" name="content" value="html"> HTML</label>
+                <label><input type="radio" name="content" value="css"> CSS</label>
+                <label><input type="radio" name="content" value="javascript"> JAVASCRIPT</label>
+                <label><input type="radio" name="content" value="python"> PYTHON</label>
+                <label><input type="radio" name="content" value="sql"> SQL</label>
+            </form>
+        </div>
+            <div class="initial-content">
+                <h2>Olá!</h2><p>Seja bem-vindo ao painel de cursos de tecnologia. Aqui você encontrará tutoriais e recursos para aprender as principais linguagens e tecnologias utilizadas no desenvolvimento web e programação.</p>
+                <p>Explore os tutoriais abaixo e comece sua jornada de aprendizado:</p>
+            </div>
+            <div id="html" class="content">
+                <div id="html-container"></div>
+            </div>
+            <div id="css" class="content">
+                <div id="css-container"></div>
+            </div>
+            <div id="javascript" class="content">
+                <div id="javascript-container"></div>
+            </div>
+            <div id="python" class="content">
+                <div id="python-container"></div>
+            </div>
+            <div id="sql" class="content">
+                <div id="sql-container"></div>
+            </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Netline. Todos os direitos reservados.</p>
+        <script type="module" src="assets/js/scriptcurso.js"></script>
+    </footer>
+</body>
+</html>

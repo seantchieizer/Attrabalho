@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comunidade de Vagas - NetLine</title>
+  <link rel="stylesheet" href="assets/css/stylecomunidade.css">
+  <link rel="stylesheet" href="assets/css/stylenavbar.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <div id="navbar-container"></div>
+
+  <header class="banner">
+    <h1>Bem-vindo à Comunidade de Vagas</h1>
+  </header>
+
+  <main>
+    <div class="forms-container">
+      <section class="job-posting-form">
+        <h2>Publicar Nova Vaga</h2>
+        <form id="post-job-form">
+          <label for="job-title">Título da Vaga:</label>
+          <input type="text" id="job-title" name="jobTitle" required>
+
+          <label for="job-desc">Descrição:</label>
+          <textarea id="job-desc" name="jobDesc" rows="4" required></textarea>
+
+          <button type="submit">Publicar</button>
+        </form>
+      </section>
+
+      <section class="job-search">
+        <h2>Pesquisar Vagas</h2>
+        <label for="search-title">Título da Vaga:</label>
+        <input type="text" id="search-title" name="searchTitle" placeholder="Buscar...">
+      </section>
+    </div>
+
+    <section class="job-list" id="job-list"></section>
+  </main>
+ 
+
+  <script src="assets/js/scriptcomunidade.js"></script>
+  <script type="module" src="assets/js/scriptnavbar.js"></script>
+</body>
+
+</html>
